@@ -1,0 +1,5 @@
+import datetime
+x=datetime.datetime.now()
+currenttime=int((x.strftime("%H")))*60+int((x.strftime("%M")))
+print(str(abs(859-currenttime)))
+# Used w3schools
